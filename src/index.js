@@ -34,4 +34,3 @@ DarkSkyApi.loadForecast()
     }
 });
 
-document.getElementsByClassName("city")[0].innerHTML = `${geoip_city()}, ${geoip_country_name()}`;
