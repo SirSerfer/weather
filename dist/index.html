@@ -13,7 +13,7 @@
     <div class="main-container">
 
         <div class="main-element">
-            <div class="city">Minsk, Belerus</div>
+            <div class="city"></div>
             <div class="weather"></div>
             <div class="humidity"></div>
         </div>
@@ -42,6 +42,8 @@
             <div class="day-weather"></div>
         </div>
     </div>
+    <canvas id="line-chart" width="800" height="450"></canvas>
+    <script src="bundle.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
     <script>
         // Initialize Firebase
@@ -54,9 +56,9 @@
             messagingSenderId: "939903875243"
         };
         firebase.initializeApp(config);
-
     </script>
-    <script src="bundle.js"></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC1Xutodrcal3u-x_KHhUh6kk0OAeeu30&callback=initMap"
+    async defer></script>-->
 </body>
 
 </html>
